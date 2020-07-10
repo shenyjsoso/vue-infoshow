@@ -1,0 +1,5 @@
+.el-checkbox__input.is-checked+.el-checkbox__label {
+    color: #262626;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+}

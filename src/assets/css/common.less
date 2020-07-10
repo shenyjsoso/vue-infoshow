@@ -1,0 +1,58 @@
+.main-wrapper {
+    font-family: 'MicrosoftYaHei';
+    height: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+    overflow: auto;
+
+    .search {
+        background: #fff;
+        min-height: 84px;
+        margin-bottom: 16px;
+        padding: 0px 16px 16px 16px;
+        box-sizing: border-box;
+        padding-top: 28px;
+        box-shadow: 6px 2px 10px 8px rgba(102, 111, 128, 0.04);
+        overflow: hidden;
+
+        .searchItem {
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 16px;
+            font-size: 14px;
+            color: rgba(38, 38, 38, 1);
+        }
+    }
+
+    .main {
+        background: #fff;
+        max-height: calc(100% - 130px);
+        padding: 14px 0px 32px;
+        box-sizing: border-box;
+        box-shadow: 6px 2px 10px 8px rgba(102, 111, 128, 0.04);
+
+        .title {
+            font-size: 16px;
+            padding: 0px 16px;
+            color: rgba(38, 38, 38, 1);
+            margin-bottom: 23px;
+        }
+
+        .tableMain {
+            margin-bottom: 32px;
+            // max-height: 495px;
+            overflow: auto;
+
+            .textStyle {
+                color: #478cd1;
+                cursor: pointer;
+            }
+        }
+
+        .page {
+            padding: 0px 16px;
+            text-align: right;
+            white-space: nowrap;
+        }
+    }
+}
