@@ -1,24 +1,12 @@
-# cdr
 
-## Project setup
-```
-npm install
-```
+查询
+![](imgs/login.png)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+信息
+![](imgs/homeinfo.png)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+报告单
+![](imgs/homeother.png)
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+闭环
+![](imgs/bihuan.png)
